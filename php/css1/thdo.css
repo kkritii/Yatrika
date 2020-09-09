@@ -1,0 +1,232 @@
+.nav {
+    height: 35%;
+    width: 100%;
+    background-color: #304252;
+    float: right;
+    display: inline-block;
+    margin: 0%;
+    margin-top: -2%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.category {
+    height: 35%;
+    width: 78%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid grey;
+    border-radius: 7px;
+    background-color: #293d4f;
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+
+.nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+
+.nav ul li.active a {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 120px;
+    height: auto;
+}
+
+#intro1 {
+    background-color: aliceblue;
+    margin-bottom: 0%;
+    /*margin-top: -4%;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    /*display: flex;*/
+    /*direction: row;*/
+    background-image: url(pokhara.jpg);
+}
+
+.cols {
+    /*flex: 40%;*/
+    float: left;
+    padding: 2%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: white;
+    margin: 1%;
+    display: block;
+    width: 400px;
+}
+
+.cols img {
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.features {
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+}
+
+.category ul li {
+    background-color: #e18470;
+    display: inline-block;
+    padding: 1%;
+    margin: 0% 8%;
+    color: #000;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category ul li a {
+    text-decoration: none;
+}
+
+.category ul li:hover {
+    /*{   padding: 1.5%;*/
+    transform: scale(1.2);
+    color: #000;
+    font-size: 15px;
+}
+
+.category ul li.active a {
+    background-color: aliceblue;
+    color: #000;
+}
+
+#content1 {
+    background: linear-gradient(99deg,  #A0F1EA 75%, #9DC3E2 40%);
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 1px solid grey;
+    border-top: none;
+    ;
+}
+
+.food {
+    /*	border-color: black;*/
+    box-sizing: border-box;
+    text-overflow: hidden;
+    display: inline-flex;
+    margin: 2% 3%;
+}
+
+.img {
+    float: left;
+    position: relative;
+    transition: transform .2s;
+    Animation width: 20%;
+    margin: 0 auto;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+img a:hover {
+    opacity: 0.5;
+}
+
+#content1 span {
+    position: relative;
+    margin: 0%;
+    margin-left: 2%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: aerial;
+    border-radius: 3px;
+    /*box-shadow: 3px;
+border: 1px solid grey;*/
+    padding: 2%;
+}
+
+.footer {
+    width: 95%;
+    border: solid;
+    background-color: #242926;
+    margin-top: -1%;
+    position: relative;
+    padding: 2%;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    /* z-index: -1; */
+    color: white;
+    justify-content: space-around;
+}
+
+.footer1 a {
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.footer1 .column11 a:hover {
+    /* background-color: #fff; */
+    color: rgb(65, 62, 62);
+    font-size: 1rem;
+    list-style-type: none;
+    text-underline-position: none;
+}
+
+
+/* #footer .column ul li :hover {
+    color: white;
+    font-size: 20px;
+    font-family: Century Gothic;
+    float: left;
+    display: block;
+    padding: 1%;
+    width: 80%;
+} */
+
+#gal {
+    width: 92%;
+    height: 100%;
+    color: white;
+    padding: 4%;
+    padding-bottom: 30%;
+    font-size: 20px;
+    font-family: Century Gothic;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgba(9, 85, 121, 1)35%, rgba(0, 212, 255, 1)100%);
+}

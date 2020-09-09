@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+
+/*header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../1.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+}*/
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+
+ul li.active a {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 180px;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    margin: 0%;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.con {
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+}
+
+.col {
+    flex: 30%;
+    padding: 3%;
+    display: block;
+    margin: 0% 0%;
+    margin-bottom: 5%;
+}
+
+.col span {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#intro {
+    background-color: aliceblue;
+    margin-bottom: 0%;
+    /*margin-top: -4%;*/
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+}
+
+.column1 {
+    flex: 40%;
+    padding: 2%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: white;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.column1 img {
+    height: 50vh;
+}
+
+#content {
+    background-color: aliceblue;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 1px solid grey;
+}
+
+.events,
+.adventure {
+    border-color: black;
+    box-sizing: border-box;
+    text-overflow: hidden;
+    display: inline-flex;
+    margin: 2% 3%;
+}
+
+.food,
+.festivals {
+    border-color: black;
+    box-sizing: border-box;
+    text-overflow: hidden;
+    display: inline-flex;
+    margin: 2% 3%;
+}
+
+#content img {
+    float: left;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 3px;
+    border: 1px solid grey;
+    padding: 2%;
+}
+
+#content span {
+    position: relative;
+    margin: 2%;
+    margin-left: 4px;
+    margin-right: 0px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: aerial;
+    border-radius: 3px;
+    box-shadow: 3px;
+    border: 1px solid grey;
+    padding: 2%;
+}
+
+#content a:hover {
+    opacity: 0.8;
+}
+
+
+/* #footer {
+    width: 90%;
+    border: solid;
+    background-color: #242926;
+    margin-top: -2%;
+    /* position: relative; */
+
+
+/* 
+padding: 2%;
+display: flex;
+z-index: -1;
+color: white;
+
+}
+*/
+
+
+/* 
+#footer .column {
+    */
+
+
+/* flex: 25%; */
+
+
+/* padding: 1%; */
+
+
+/*background-color: grey;*/
+
+
+/* 
+margin: 1%;
+color: white; */
+
+
+/* float: left; */
+
+
+/* }
+*/
+
+
+/* 
+#footer .column ul li:hover {
+    background-color: #fff;
+    color: white;
+    font-size: 25px;
+    list-style-type: none;
+    text-underline-position: none;
+} */
+
+*/
+/* #footer .footer ul li hover: {
+    color: white;
+    font-size: 20px;
+    font-family: Century Gothic;
+    /* float: left; */
+
+
+/* display: block;
+padding: 1%;
+width: 80%; */
+
+
+/*background-color:red;*/
+
+
+/* 
+}
+*/

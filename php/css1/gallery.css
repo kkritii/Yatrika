@@ -1,0 +1,56 @@
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: stretch;
+  justify-items: stretch;
+  margin: 10% 10%;
+
+  }
+.grid img:hover {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  /*max-height: 100px;*/
+  border-radius: 15px;
+}
+    .container {
+  display: flex;
+  width: 90%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+ /* box-shadow: 0 10px 20px rgba(0,0,0,.1);*/
+  line-height: 0;
+}
+
+.box > img {
+  width: 150%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 80%;
+  height: 80%;
+}
+img{
+  border-radius: 10%;
+}
